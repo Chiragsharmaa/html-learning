@@ -10,15 +10,16 @@
   <body>
     <div class="left split">
       <div class="container">
-        <img class="logo" src="./assets/hand.png" alt="" />
+        <img class="logo" src="../assets/hand.png" alt="" />
         <p style="font-weight: bold; font-size: 20px; font-family: sans-serif">
           Hello, Join Us!
         </p>
         <div class="google">
-          <a class="raw" href="#"><img class="social" src="./assets/google.png"> Signup Using Google </a>
+          <img class="social" src="../assets/google.png" />
+          <span>Sign Up using Google!</span>
         </div>
         <div class="fb">
-          <img class="social" src="./assets/facebook.png" alt="" />
+          <img class="social" src="../assets/facebook.png" alt="" />
           <span>Sign Up With Facebook!</span>
         </div>
         <!-- change div to button -->
@@ -26,13 +27,27 @@
           <div class="line-3">
             <hr />
           </div>
-          <span>OR</span>
+          <span style="margin-left: 6px; margin-right: 6px">OR</span>
           <div class="line-3">
             <hr />
           </div>
         </div>
+        <div class="email">
+          <input
+            type="text"
+            class="user"
+            placeholder="Enter your Email Address"
+          />
+          <button class="submit">Continue</button>
+        </div>
+        <div class="policy">
+          By joining I Agree To The
+          <a id="privacy" href="https://www.freeprivacypolicy.com/blog/privacy-policy-url/"
+            >Privacy Policy</a
+          >
+        </div>
       </div>
     </div>
-    <div class="right split"></div>
+    <div class="right split"> <img src="../assets/pixel1.jpg" alt="" style="width: 100%; height: 100%;"> </div>
   </body>
 </html>

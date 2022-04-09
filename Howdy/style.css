@@ -1,0 +1,97 @@
+body{
+    background-image: url(../assets/image11.jpg);
+    overflow-x: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo,img{
+    height: 50px;
+    width: 50px;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+
+.left{
+    width: 70%;
+    left: 0;
+
+}
+
+.right{
+    width: 30%;
+    right: 0%;
+    background-color:#3b3131 ;
+    opacity: 0.7;
+}
+
+.rod{
+    height: 100%;
+    position: fixed;
+
+}
+
+.para{
+    text-align: center;
+    color: white; font-size: 25px;
+    margin-top: 1.8em;
+    margin-bottom: 1.5em;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+span{
+    color: white;
+    font-size: 23px;
+    align-items: center;
+    text-align: center;
+  
+}
+
+p,label{
+    color: white;
+}
+
+label{
+    color: white;
+    margin-bottom: 3px;
+}
+
+#login{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+form{
+    margin-left: 2em;
+    color: white;
+    margin-right: 2em;
+    
+}
+
+.signup{
+    align-items: center;
+    text-align: center;
+
+}
+
+.tnc{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    
+}
+
+.already{
+    margin-top: -1em;
+}
+
+.copy{
+    font-size: 10px; bottom: 0;
+    align-items: center;
+    text-align: center;
+    
+}
