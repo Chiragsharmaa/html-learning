@@ -39,11 +39,11 @@
     </div>
     <script> 
         function onClick() {
-            var name = document.getElementById("username").value;
-            var email = document.getElementById("email").value;
-            var password = document.getElementById("password").value;
-            var check = document.getElementById("check");
-            console.log(name,email,password,check);
+            var userInfo = {};
+            userInfo.name = document.getElementById("username").value;
+            userInfo.email = document.getElementById("email").value;
+            userInfo.password = document.getElementById("password").value;
+            console.log(userInfo);
             
         }
     </script>
